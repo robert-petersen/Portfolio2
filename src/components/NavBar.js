@@ -1,21 +1,22 @@
-import Styled from "styled-components";
+import styled from "styled-components";
 
 function NavBar() {
   return (
-    <nav className="NavBar">
+    <Background>
       <div>Robert Petersen</div>
       <div>
         <a href="#" >About</a>
         <a href="#" >Projects</a>
         <a href="#" >Contact</a>
       </div>
-    </nav>
+    </Background>
   );
 }
 
 export default NavBar;
 
-const Button = Styled.button`
-  
-  
+const Background = styled.div`
+  width: 100%;
+  height: 10vh;
+  background-color: #1c1c1c;
 `
