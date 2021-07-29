@@ -1,21 +1,16 @@
 import React from "react";
-import NavBar from "./components/NavBar";
-import Landing from "./components/Landing";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import Home from './pages';
 
 function App() {
   return (
-    <div className="App">
-      <Landing />
-      <NavBar />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+  <Router>
+    <Switch>
+      <Route path="/" component={Home} exact />
+      {/* <Route path="/" component={Hack} exact /> */}
+    </Switch>
+  </Router>
   );
 }
 
