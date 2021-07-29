@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "./components/NavBar.js";
-import Landing from "./components/Landing.js";
-import About from "./components/About.js";
-import Projects from "./components/Projects.js";
-import Contact from "./components/Contact.js";
-import Footer from "./components/Footer.js";
+import NavBar from "./components/NavBar";
+import Landing from "./components/Landing";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (

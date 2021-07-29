@@ -50,7 +50,8 @@ table {
 /* Arimo Font From Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
-body {
+* {
   font-size: 62.5%;
   font-family: 'Arimo', sans-serif;
+	box-sizing: border-box;
 }
