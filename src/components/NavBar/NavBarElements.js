@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import {Link as LinkR} from "react-router-dom";
 import {Link as LinkS} from "react-scroll";
 
 export const NavContainer = styled.div`
   width: 100%;
   height: 60px;
-  background-color: whitesmoke;
+  background-color: ${({scrollNav}) => (scrollNav ? "whitesmoke" : "transparent")};
+  /* margin-top: -60px; */
   position: sticky;
   display: flex;
   justify-content: space-between;
@@ -18,6 +20,10 @@ export const NavLinksContainer = styled.div`
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const NavLink = styled(LinkS)`
@@ -31,6 +37,7 @@ export const NavLink = styled(LinkS)`
   font-size: 1.2rem;
   cursor: pointer;
   height: 100%;
+  transition: 0.3s ease-in-out;
 
   &.active {
     border-bottom: 3px solid skyblue;
@@ -38,9 +45,30 @@ export const NavLink = styled(LinkS)`
 
   &:hover {
     background-color: lightgrey;
+    transition: 0.3s ease-in-out;
   }
 `
 
-export const NavTitle = styled.div`
+export const NavTitle = styled(LinkR)`
   font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+`
+
+export const MobileIcon = styled.div`
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: black;
+  }
+
+  .bars {
+    display: ${({ isOpen }) => ( isOpen ? "none" : "block" )}
+  }
+
+  .times {
+    display: ${({ isOpen }) => ( isOpen ? "block" : "none" )}
+  }
 `

@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
+import {FaBars, FaTimes} from "react-icons/fa";
 import {animateScroll as scroll} from "react-scroll";
-import { NavContainer, NavLinksContainer, NavLink, NavTitle } from "./NavBarElements";
+import { NavContainer, NavLinksContainer, NavLink, NavTitle, MobileIcon } from "./NavBarElements";
 
-function NavBar() {
+function NavBar({toggle, isOpen}) {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
-    if(window.scrollY >= 80) {
+    if(window.scrollY >= 60) {
       setScrollNav(true);
     }
     else{
@@ -18,13 +19,21 @@ function NavBar() {
     window.addEventListener("scroll", changeNav);
   }, []);
 
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  }
+
   return (
     <NavContainer scrollNav={scrollNav}>
-      <NavTitle>Robert Petersen</NavTitle>
+      <NavTitle to="/" onClick={toggleHome} >Robert Petersen</NavTitle>
+      <MobileIcon onClick={ toggle } isOpen={isOpen} >
+        <FaBars className="bars"/>
+        <FaTimes className="times"/>
+      </MobileIcon>
       <NavLinksContainer>
-        <NavLink href="#" >About</NavLink>
-        <NavLink href="#" >Projects</NavLink> 
-        <NavLink href="#" >Contact</NavLink>
+        <NavLink to="/" >About</NavLink>
+        <NavLink to="/" >Projects</NavLink> 
+        <NavLink to="/" >Contact</NavLink>
       </NavLinksContainer>
     </NavContainer>
   );
