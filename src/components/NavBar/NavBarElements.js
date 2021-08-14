@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link as LinkS} from "react-scroll";
 
 export const NavContainer = styled.div`
   width: 100%;
@@ -19,7 +20,7 @@ export const NavLinksContainer = styled.div`
   height: 100%;
 `
 
-export const NavLink = styled.a`
+export const NavLink = styled(LinkS)`
   flex: .3;
   text-align: center;
   display: flex;
@@ -30,8 +31,16 @@ export const NavLink = styled.a`
   font-size: 1.2rem;
   cursor: pointer;
   height: 100%;
+
+  &.active {
+    border-bottom: 3px solid skyblue;
+  }
+
+  &:hover {
+    background-color: lightgrey;
+  }
 `
 
 export const NavTitle = styled.div`
-
+  font-size: 1.6rem;
 `
