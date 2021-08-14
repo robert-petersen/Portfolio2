@@ -1,22 +1,17 @@
-import styled from "styled-components";
+import React from "react";
+import { NavContainer, NavLinksContainer, NavLink, NavTitle } from "./NavBarElements";
 
 function NavBar() {
   return (
-    <Background>
-      <div>Robert Petersen</div>
-      <div>
-        <a href="#" >About</a>
-        <a href="#" >Projects</a>
-        <a href="#" >Contact</a>
-      </div>
-    </Background>
+    <NavContainer>
+      <NavTitle>Robert Petersen</NavTitle>
+      <NavLinksContainer>
+        <NavLink href="#" >About</NavLink>
+        <NavLink href="#" >Projects</NavLink> 
+        <NavLink href="#" >Contact</NavLink>
+      </NavLinksContainer>
+    </NavContainer>
   );
 }
 
 export default NavBar;
-
-const Background = styled.div`
-  width: 100%;
-  height: 10vh;
-  background-color: #1c1c1c;
-`
