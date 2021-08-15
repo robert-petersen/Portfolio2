@@ -3,6 +3,7 @@ import {Link as LinkS} from "react-scroll";
 
 export const SidebarContainer = styled.div`
   position: fixed;
+  z-index: 998;
   width:100%;
   height: 40%;
   background-color: whitesmoke;
