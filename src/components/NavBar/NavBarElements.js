@@ -6,8 +6,10 @@ export const NavContainer = styled.div`
   width: 100%;
   height: 60px;
   background-color: ${({scrollNav}) => (scrollNav ? "whitesmoke" : "transparent")};
-  /* margin-top: -60px; */
+  margin-top: -60px;
   position: sticky;
+  top: 0;
+  z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,8 +46,9 @@ export const NavLink = styled(LinkS)`
   }
 
   &:hover {
-    background-color: lightgrey;
+    background-color: lightblue;
     transition: 0.3s ease-in-out;
+    opacity: ${({scrollNav}) => (scrollNav ? "100%" : "60%")};
   }
 `
 
