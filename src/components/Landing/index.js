@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Video from "../../videos/pexels-crazy-motions-8733062.mp4";
+// import Video from "../../videos/pexels-crazy-motions-8733062.mp4";
+import Video from "../../videos/lake.mp4";
 import { LandingContainer, LandingVideoContainer, LandingVideo, LandingTextContainer, LandingTextH1, LandingTextH2, Button, ArrowForward, ArrowDownward } from "./LandingElements";
 
 const Landing = () => {
@@ -16,7 +17,7 @@ const Landing = () => {
       </LandingVideoContainer>
       <LandingTextContainer>
         <LandingTextH1>Hey, I'm Rob</LandingTextH1>
-        <LandingTextH2>Full-Stack Web Developer from Chicago, IL</LandingTextH2>
+        <LandingTextH2>A Full-Stack Web Developer from Chicago, IL</LandingTextH2>
         <Button 
           to="about" 
           onMouseEnter={onHover} 

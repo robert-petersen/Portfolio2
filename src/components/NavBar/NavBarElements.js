@@ -40,15 +40,17 @@ export const NavLink = styled(LinkS)`
   cursor: pointer;
   height: 100%;
   transition: 0.3s ease-in-out;
+  border-bottom: 3px solid transparent;
 
   &.active {
     border-bottom: 3px solid skyblue;
   }
 
   &:hover {
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    border-bottom: 3px solid skyblue;
     transition: 0.3s ease-in-out;
-    opacity: ${({scrollNav}) => (scrollNav ? "100%" : "60%")};
+    /* opacity: ${({scrollNav}) => (scrollNav ? "100%" : "60%")}; */
   }
 `
 
