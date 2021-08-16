@@ -31,9 +31,30 @@ function NavBar({toggle, isOpen}) {
         <FaTimes className="times"/>
       </MobileIcon>
       <NavLinksContainer>
-        <NavLink to="/" >About</NavLink>
-        <NavLink to="/" >Projects</NavLink> 
-        <NavLink to="/" >Contact</NavLink>
+        <NavLink 
+          to="about"
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-60}
+        >About</NavLink>
+        <NavLink 
+          to="projects" 
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-60}
+        >Projects</NavLink> 
+        <NavLink 
+          to="contact" 
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-60}
+        >Contact</NavLink>
       </NavLinksContainer>
     </NavContainer>
   );

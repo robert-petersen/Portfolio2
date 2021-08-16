@@ -39,23 +39,23 @@ export const LandingTextContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 5% 20%;
-  color: whitesmoke;
+  color: #262626;
   font-weight: bold;
 `
 
 export const LandingTextH1 = styled.h1`
   font-size: 3.2rem;
   text-align: center;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px lightslategray;
 
   @media screen and (max-width: 768px) {
     font-size: 3rem;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px lightslategray;
   }
 
   @media screen and (max-width: 480px) {
     font-size: 2.2rem;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px lightslategray;
   }
 `
 
@@ -63,16 +63,16 @@ export const LandingTextH2 = styled.h2`
   padding-top: 40px;
   font-size: 2.4rem;
   text-align: center;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px lightslategray;
 
   @media screen and (max-width: 768px) {
     font-size: 2.2rem;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px lightslategray;
   }
 
   @media screen and (max-width: 480px) {
     font-size: 1.6rem;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px lightslategray;
   }
 `
 
@@ -83,17 +83,17 @@ export const Button = styled(LinkS)`
   justify-content: center;
   align-items: center;
   font-size: 1.4rem;
-  background-color: slategrey;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   padding: 10px;
-  box-shadow: 2.5px 2.5px 3px black;
-  border: 2px solid whitesmoke;
+  background-color: transparent;
+  border: 2px solid #262626;
   transition: 0.3s ease-in-out;
 
   &:hover {
-    background-color: whitesmoke;
-    border: 2px solid slategrey;
-    color: slategrey;
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    color: whitesmoke;
+    box-shadow: 2px 2px 3px lightslategray;
   }
 
 `

@@ -5,7 +5,8 @@ import {Link as LinkS} from "react-scroll";
 export const NavContainer = styled.div`
   width: 100%;
   height: 60px;
-  background-color: ${({scrollNav}) => (scrollNav ? "whitesmoke" : "transparent")};
+  background-color: #262626;
+  opacity: ${({scrollNav}) => (scrollNav ? "100%" : "0%")};
   margin-top: -60px;
   position: sticky;
   top: 0;
@@ -14,6 +15,7 @@ export const NavContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0 3vw;
+  border-bottom: 4px solid dodgerblue;
 `
 
 export const NavLinksContainer = styled.div`
@@ -35,29 +37,29 @@ export const NavLink = styled(LinkS)`
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: black;
   font-size: 1.2rem;
   cursor: pointer;
   height: 100%;
   transition: 0.3s ease-in-out;
-  border-bottom: 3px solid transparent;
+  /* border-bottom: 3px solid transparent; */
+  color: white;
 
   &.active {
-    border-bottom: 3px solid skyblue;
+    /* border-bottom: 3px solid skyblue; */
+    color: dodgerblue;
   }
 
   &:hover {
-    /* background-color: lightblue; */
-    border-bottom: 3px solid whitesmoke;
+    /* border-bottom: 3px solid whitesmoke; */
     transition: 0.3s ease-in-out;
-    /* opacity: ${({scrollNav}) => (scrollNav ? "100%" : "60%")}; */
+    color: cyan;
   }
 `
 
 export const NavTitle = styled(LinkR)`
   font-size: 1.6rem;
   text-decoration: none;
-  color: black;
+  color: white;
 `
 
 export const MobileIcon = styled.div`

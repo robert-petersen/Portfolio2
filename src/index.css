@@ -49,9 +49,13 @@ table {
 
 /* Arimo Font From Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 * {
   font-size: 62.5%;
-  font-family: 'Arimo', sans-serif;
 	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
