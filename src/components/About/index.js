@@ -1,7 +1,7 @@
 import React from "react";
-import { AboutContainer, AboutLeftContainer, AboutRightContainer, AboutLanguages, AboutTools, Icon, IconTitle, AboutSkillContainer, AboutSkill, LeftTop, LeftBottom, AboutEducationContainer } from "./AboutElements";
+import { AboutContainer, AboutLeftContainer, AboutRightContainer, AboutLanguages, AboutTools, IconTitle, AboutSkillContainer, AboutSkill, LeftTop, LeftBottom, AboutEducationContainer, IconHTML, IconCSS, IconJS, IconPY, IconSQL, IconREA, IconRED, IconNO, IconGIT, IconFIG, IconPOST, IconTREL, IconVS } from "./AboutElements";
 import Robert from "../../images/me.jpg";
-import { languagesData, toolsData } from "./data";
+// import { languagesData, toolsData } from "./data";
 
 function About() {
   return (
@@ -29,23 +29,69 @@ function About() {
         <AboutLanguages>          
           <h1>Languages and Frameworks</h1>
           <AboutSkillContainer>
-            {languagesData.map((data)=>(
+            {/* {languagesData.map((data)=>(
               <AboutSkill>
                 <Icon src={data.src} alt={data.alt} />
                 <IconTitle>{data.title}</IconTitle>
               </AboutSkill>
-            ))}
+            ))} */}
+            <AboutSkill>
+              <IconHTML />
+              <IconTitle>HTML</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconCSS />
+              <IconTitle>CSS</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconJS />
+              <IconTitle>JavaScript</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconPY />
+              <IconTitle>Python</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconSQL />
+              <IconTitle>SQLite</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconREA />
+              <IconTitle>React.js</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconRED />
+              <IconTitle>Redux.js</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconNO />
+              <IconTitle>Node.js</IconTitle>
+            </AboutSkill>
           </AboutSkillContainer>
         </AboutLanguages>
         <AboutTools>
           <h1>Tools</h1>
           <AboutSkillContainer>
-            {toolsData.map((data)=>(
-                <AboutSkill>
-                  <Icon src={data.src} alt={data.alt} />
-                  <IconTitle>{data.title}</IconTitle>
-                </AboutSkill>
-            ))}
+            <AboutSkill>
+              <IconGIT />
+              <IconTitle>GitHub</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconFIG />
+              <IconTitle>Figma</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconPOST />
+              <IconTitle>Postman</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconTREL />
+              <IconTitle>Trello</IconTitle>
+            </AboutSkill>
+            <AboutSkill>
+              <IconVS />
+              <IconTitle>VS Code</IconTitle>
+            </AboutSkill>
           </AboutSkillContainer>
         </AboutTools>
       </AboutRightContainer>
