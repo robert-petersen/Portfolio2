@@ -52,8 +52,26 @@ export const languagesData = [
 export const toolsData = [
   {
     id: 1,
-    src: "",
-    alt: "",
-    title: "",
+    src: "https://community.infoblox.com/t5/image/serverpage/image-id/2195iA290BF7E3BA6064D/image-size/large/is-moderation-mode/true?v=v2&px=999",
+    alt: "gitflow",
+    title: "GitFlow",
+  },
+  {
+    id: 1,
+    src: "https://i.pinimg.com/originals/17/06/c9/1706c9f16bd08eb5e03f1df3e0a94a1c.png",
+    alt: "Figma",
+    title: "Figma",
+  },
+  {
+    id: 1,
+    src: "https://miro.medium.com/max/512/1*fVBL9mtLJmHIH6YpU7WvHQ.png",
+    alt: "Postman",
+    title: "Postman",
+  },
+  {
+    id: 1,
+    src: "https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/trello-512.png",
+    alt: "Trello",
+    title: "Trello",
   },
 ]

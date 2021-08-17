@@ -83,7 +83,6 @@ export const Button = styled(LinkS)`
   justify-content: center;
   align-items: center;
   font-size: 1.4rem;
-  /* border-radius: 50px; */
   padding: 10px;
   background-color: transparent;
   border: 2px solid #262626;

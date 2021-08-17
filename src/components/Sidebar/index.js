@@ -5,9 +5,33 @@ const Sidebar = ({ isOpen, toggle }) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <SidebarLinksContainer>
-        <SidebarLink to="/" onClick={toggle} >About</SidebarLink>
-        <SidebarLink to="/" onClick={toggle} >Projects</SidebarLink>
-        <SidebarLink to="/" onClick={toggle} >Contact</SidebarLink>
+        <SidebarLink 
+          to="about" 
+          onClick={toggle} 
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-60}
+        >About</SidebarLink>
+        <SidebarLink 
+          to="projects" 
+          onClick={toggle} 
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-60}
+        >Projects</SidebarLink>
+        <SidebarLink 
+          to="contact" 
+          onClick={toggle} 
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-60}
+        >Contact</SidebarLink>
       </SidebarLinksContainer>
     </SidebarContainer>
   )
