@@ -176,7 +176,7 @@ export const AboutSkill = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 30px;
 `
 export const IconTitle = styled.h2`
   font-size: 1.2rem;
@@ -185,66 +185,66 @@ export const IconTitle = styled.h2`
 `
 
 export const IconHTML = styled(FaHtml5)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconCSS = styled(FaCss3Alt)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconJS = styled(SiJavascript)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconPY = styled(FaPython)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconSQL = styled(DiSqllite)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconREA = styled(FaReact)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconRED = styled(SiRedux)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconNO = styled(FaNodeJs)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconGIT = styled(FaGithubSquare)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconFIG = styled(FaFigma)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconPOST = styled(SiPostman)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconTREL = styled(FaTrello)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
 
 export const IconVS = styled(SiVisualstudiocode)`
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: dodgerblue;
 `
