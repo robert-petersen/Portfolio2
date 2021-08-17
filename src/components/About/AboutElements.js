@@ -13,7 +13,6 @@ import { SiPostman } from "react-icons/si";
 import { FaTrello } from "react-icons/fa";
 import { SiVisualstudiocode } from "react-icons/si";
 
-
 export const AboutContainer = styled.div`
   width: 100%;
   min-height: calc( 100vh - 60px );
@@ -30,8 +29,6 @@ export const AboutContainer = styled.div`
 
 export const AboutLeftContainer = styled.div`
   width: 42%;
-  min-height: 80vh;
-  padding: 3vh 3vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -47,11 +44,16 @@ export const LeftTop = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 10vh;
 
   img{
     width: 30%;
     border-radius: 20px;
     box-shadow: 2px 2px 2px lightslategray;
+  }
+
+  @media screen and (max-width: 1300px) {
+    margin-top: 10vh;
   }
 `
 
@@ -103,11 +105,14 @@ export const LeftBottom = styled.div`
     margin-bottom: 1vh;
     color:  #404040;
   }
+
+  @media screen and (max-width: 1300px) {
+    margin-bottom: 10vh;
+  }
 `
 
 export const AboutRightContainer = styled.div`
   width: 42%;
-  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -120,7 +125,7 @@ export const AboutRightContainer = styled.div`
 `
 
 export const AboutLanguages = styled.div`
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -137,11 +142,12 @@ export const AboutLanguages = styled.div`
 `
 
 export const AboutTools = styled.div`
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 10vh;
 
   h1 {
     width: 100%;
@@ -150,6 +156,10 @@ export const AboutTools = styled.div`
     padding-bottom: 2vh;
     border-bottom: 2px solid dodgerblue;
     padding-left: 1vw;
+  }
+
+  @media screen and (max-width: 1300px) {
+    margin-bottom: 10vh;
   }
 `
 
