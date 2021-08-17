@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutContainer, AboutLeftContainer, AboutRightContainer, AboutLanguages, AboutTools, Icon, IconTitle, AboutSkillContainer, AboutSkill } from "./AboutElements";
+import { AboutContainer, AboutLeftContainer, AboutRightContainer, AboutLanguages, AboutTools, Icon, IconTitle, AboutSkillContainer, AboutSkill, LeftTop, LeftBottom, AboutEducationContainer } from "./AboutElements";
 import Robert from "../../images/me.jpg";
 import { languagesData, toolsData } from "./data";
 
@@ -7,11 +7,23 @@ function About() {
   return (
     <AboutContainer id="about">
       <AboutLeftContainer>
-        <img className="my-photo" src={Robert} alt="Robert Petersen"/>
-        <h2>Hello, I am Robert Petersen.</h2>
-        <p>
-          I am a full-stack web developer who loves problemand building web applications from the ground up. not coding I enjoy playing video games, watching Star Wars, fishing, hiking, camping, and walkingdog. I come from a retail background and have scustomer service, sales, lower management, management.
-        </p>
+        <LeftTop>
+          <img className="my-photo" src={Robert} alt="Robert Petersen"/>
+          <AboutEducationContainer>
+            <h2>My Education</h2>
+            <div>
+              <img src="https://everipedia-storage.s3.amazonaws.com/ProfilePics/lambda-school__38385.jpeg" alt="Lambda Logo" />
+              <h3>Lambda School 2020 - 2021</h3>
+            </div>
+            <h4>Full-Stack Web Development</h4>
+          </AboutEducationContainer>
+        </LeftTop>
+        <LeftBottom>
+          <h2>Hello, I'm Robert Petersen.</h2>
+          <p>
+            I am a full-stack web developer who loves problem solving and building web applications from the ground up. When I'm not coding I enjoy playing video games, watching anything Star Wars, fishing, hiking, camping, and walking with my dog. I come from a retail background and have skills in customer service, sales, lower management, and time management.
+          </p>
+        </LeftBottom>
       </AboutLeftContainer>
       <AboutRightContainer>
         <AboutLanguages>          

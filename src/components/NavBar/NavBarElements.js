@@ -15,7 +15,7 @@ export const NavContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0 3vw;
-  border-bottom: 4px solid dodgerblue;
+  border-bottom: 2px solid dodgerblue;
 `
 
 export const NavLinksContainer = styled.div`
@@ -41,18 +41,15 @@ export const NavLink = styled(LinkS)`
   cursor: pointer;
   height: 100%;
   transition: 0.3s ease-in-out;
-  /* border-bottom: 3px solid transparent; */
   color: white;
 
   &.active {
-    /* border-bottom: 3px solid skyblue; */
     color: dodgerblue;
   }
 
   &:hover {
-    /* border-bottom: 3px solid whitesmoke; */
     transition: 0.3s ease-in-out;
-    color: cyan;
+    color: dodgerblue;
   }
 `
 
@@ -68,7 +65,7 @@ export const MobileIcon = styled.div`
     display: block;
     font-size: 1.8rem;
     cursor: pointer;
-    color: black;
+    color: whitesmoke;
   }
 
   .bars {
