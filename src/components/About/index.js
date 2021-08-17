@@ -1,7 +1,6 @@
 import React from "react";
 import { AboutContainer, AboutLeftContainer, AboutRightContainer, AboutLanguages, AboutTools, IconTitle, AboutSkillContainer, AboutSkill, LeftTop, LeftBottom, AboutEducationContainer, IconHTML, IconCSS, IconJS, IconPY, IconSQL, IconREA, IconRED, IconNO, IconGIT, IconFIG, IconPOST, IconTREL, IconVS } from "./AboutElements";
 import Robert from "../../images/me.jpg";
-// import { languagesData, toolsData } from "./data";
 
 function About() {
   return (
@@ -29,12 +28,6 @@ function About() {
         <AboutLanguages>          
           <h1>Languages and Frameworks</h1>
           <AboutSkillContainer>
-            {/* {languagesData.map((data)=>(
-              <AboutSkill>
-                <Icon src={data.src} alt={data.alt} />
-                <IconTitle>{data.title}</IconTitle>
-              </AboutSkill>
-            ))} */}
             <AboutSkill>
               <IconHTML />
               <IconTitle>HTML</IconTitle>
