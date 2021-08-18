@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 import Landing from "../components/Landing";
 import About from "../components/About";
 import Skills from "../components/Skills";
-// import Projects from "../components/Projects";
+import Projects from "../components/Projects";
 // import Contact from "../components/Contact";
 // import Footer from "../components/Footer";
 
@@ -22,8 +22,8 @@ function Home() {
       <Landing />
       <About />
       <Skills />
-      {/* 
       <Projects />
+      {/* 
       <Contact />
       <Footer /> */}
     </>

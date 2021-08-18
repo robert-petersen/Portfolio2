@@ -143,7 +143,6 @@ export const AboutRightContainerBottom = styled.div`
 export const AboutTopicContainer = styled.div`
   width: calc(50% - 3vh);
   height: 250px;
-  /* background-color: #dcdcdc; */
   background-color: #404040;
   box-shadow: 2px 2px 2px lightslategray;
   padding: 20px;
@@ -165,10 +164,7 @@ export const AboutTopicContainer = styled.div`
   p {
     margin-top: 1vh;
     line-height: 1.3;
-    /* color: #404040; */
-    /* color: #c3c3c3; */
-    color: whitesmoke;
-
+    color: lightgray;
   }
 `
 
