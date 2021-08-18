@@ -16,6 +16,8 @@ import { SiVisualstudiocode } from "react-icons/si";
 export const SkillsContainer = styled.div`
   background-color: whitesmoke;
   min-height: calc( 100vh - 60px );
+  width: 100%;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -34,7 +36,7 @@ export const SkillsTypeContainer = styled.div`
 
   h1 {
     width: 100%;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     margin-bottom: 3vh;
     padding-bottom: 2vh;
     border-bottom: 2px solid dodgerblue;
