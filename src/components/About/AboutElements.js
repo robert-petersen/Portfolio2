@@ -165,10 +165,7 @@ export const AboutTopicContainer = styled.div`
   p {
     margin-top: 1vh;
     line-height: 1.3;
-    /* color: #404040; */
-    /* color: #c3c3c3; */
     color: whitesmoke;
-
   }
 `
 

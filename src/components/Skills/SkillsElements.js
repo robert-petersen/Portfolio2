@@ -18,15 +18,17 @@ export const SkillsContainer = styled.div`
   min-height: calc( 100vh - 60px );
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 15vh;
 `
 
 export const SkillsTypeContainer = styled.div`
   width: 60%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-top: 10vh;
 

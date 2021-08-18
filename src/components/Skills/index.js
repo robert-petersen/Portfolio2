@@ -3,9 +3,9 @@ import { SkillsContainer, SkillsTypeContainer, SkillContainer, Skill, IconTitle,
 
 const Skills = () => {
   return (
-    <SkillsContainer>
+    <SkillsContainer id="skills">
       <SkillsTypeContainer>          
-        <h1>Languages</h1>
+        <h1>Languages, Frameworks, and Libraries</h1>
         <SkillContainer>
           <Skill>
             <IconHTML />
@@ -27,11 +27,6 @@ const Skills = () => {
             <IconSQL />
             <IconTitle>SQLite</IconTitle>
           </Skill>
-        </SkillContainer>
-      </SkillsTypeContainer>
-      <SkillsTypeContainer>
-        <h1>Frameworks and Libraries</h1>
-        <SkillContainer>
           <Skill>
             <IconREA />
             <IconTitle>React.js</IconTitle>

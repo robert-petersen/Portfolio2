@@ -40,6 +40,14 @@ function NavBar({toggle, isOpen}) {
           offset={-60}
         >About</NavLink>
         <NavLink 
+          to="skills"
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-60}
+        >Skills</NavLink>
+        <NavLink 
           to="projects" 
           smooth={true}
           duration={500}
