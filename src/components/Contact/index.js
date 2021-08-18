@@ -1,9 +1,12 @@
+import React from "react";
+import { ContactContainer } from "./ContactElements";
+
 function Contact() {
   return (
-    <div className="Contact">
+    <ContactContainer id="contact">
       
 
-    </div>
+    </ContactContainer>
   );
 }
 

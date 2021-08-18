@@ -7,7 +7,7 @@ export const ProjectsSectionContainer = styled.div`
   background-color: #e8e8e8;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 `
 
@@ -90,6 +90,23 @@ export const ProjectLink = styled.a`
   }
 `
 
+export const ProjectsAngleContainer = styled.div`
+  width: 100%;
+  height: 10vh;
+  background-color: #e8e8e8;
+  display: flex;
+`
 
+export const AngleRight = styled.div`
+  width: 50%;
+  height: 10vh;
+  background-color: #404040;
+  clip-path: polygon(0 100%, 0 0, 100% 100%);
+`
 
-// Icons
+export const AngleLeft = styled.div`
+  width: 50%;
+  height: 10vh;
+  background-color: #404040;
+  clip-path: polygon(100% 100%, 100% 0, 0 100%);
+`

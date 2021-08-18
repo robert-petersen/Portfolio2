@@ -1,5 +1,5 @@
 import React from 'react';
-import { SkillsContainer, SkillsTypeContainer, SkillContainer, Skill, IconTitle, IconHTML, IconCSS, IconJS, IconPY, IconSQL, IconREA, IconRED, IconNO, IconGIT, IconFIG, IconPOST, IconTREL, IconVS } from "./SkillsElements";
+import { SkillsContainer, SkillsTypeContainer, SkillContainer, Skill, IconTitle, IconHTML, IconCSS, IconJS, IconPY, IconSQL, IconREA, IconRED, IconNO, IconGIT, IconFIG, IconPOST, IconTREL, IconVS, IconSC, IconKN, IconAWS, IconFIRE, IconJWT } from "./SkillsElements";
 
 const Skills = () => {
   return (
@@ -39,6 +39,18 @@ const Skills = () => {
             <IconNO />
             <IconTitle>Node.js</IconTitle>
           </Skill>
+          <Skill>
+            <IconSC />
+            <IconTitle>Styled Components</IconTitle>
+          </Skill>
+          <Skill>
+            <IconKN />
+            <IconTitle>Knex.js</IconTitle>
+          </Skill>
+          <Skill>
+            <IconJWT />
+            <IconTitle>JWT</IconTitle>
+          </Skill>
         </SkillContainer>
       </SkillsTypeContainer>
       <SkillsTypeContainer>
@@ -63,6 +75,14 @@ const Skills = () => {
           <Skill>
             <IconVS />
             <IconTitle>VS Code</IconTitle>
+          </Skill>
+          <Skill>
+            <IconAWS />
+            <IconTitle>AWS</IconTitle>
+          </Skill>
+          <Skill>
+            <IconFIRE />
+            <IconTitle>Firebase</IconTitle>
           </Skill>
         </SkillContainer>
       </SkillsTypeContainer>
