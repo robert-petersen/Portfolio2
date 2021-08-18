@@ -12,6 +12,11 @@ import { FaFigma } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 import { FaTrello } from "react-icons/fa";
 import { SiVisualstudiocode } from "react-icons/si";
+import { SiStyledComponents } from "react-icons/si";
+import { FaDatabase } from "react-icons/fa";
+import { SiAmazonaws } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import { SiJsonwebtokens } from "react-icons/si";
 
 export const SkillsContainer = styled.div`
   background-color: whitesmoke;
@@ -126,6 +131,31 @@ export const IconTREL = styled(FaTrello)`
 `
 
 export const IconVS = styled(SiVisualstudiocode)`
+  font-size: 4.5rem;
+  color: dodgerblue;
+`
+
+export const IconSC = styled(SiStyledComponents)`
+  font-size: 4.5rem;
+  color: dodgerblue;
+`
+
+export const IconKN = styled(FaDatabase)`
+  font-size: 4.5rem;
+  color: dodgerblue;
+`
+
+export const IconAWS = styled(SiAmazonaws)`
+  font-size: 4.5rem;
+  color: dodgerblue;
+`
+
+export const IconFIRE = styled(SiFirebase)`
+  font-size: 4.5rem;
+  color: dodgerblue;
+`
+
+export const IconJWT = styled(SiJsonwebtokens)`
   font-size: 4.5rem;
   color: dodgerblue;
 `

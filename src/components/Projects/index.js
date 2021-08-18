@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectsSectionContainer, ProjectsHeading, ProjectsContainer, ProjectContainer, ProjectImg, ProjectTitle, ProjectDescription, ProjectLinks, ProjectLink, ProjectTopContainer } from "./ProjectsElements";
+import { ProjectsSectionContainer, ProjectsHeading, ProjectsContainer, ProjectContainer, ProjectImg, ProjectTitle, ProjectDescription, ProjectLinks, ProjectLink, ProjectTopContainer, ProjectsAngleContainer, AngleRight, AngleLeft } from "./ProjectsElements";
 import LinkedInClone from "../../images/LinkedInClone.png";
 
 function Projects() {
@@ -135,6 +135,10 @@ function Projects() {
           </ProjectLinks>
         </ProjectContainer>
       </ProjectsContainer>
+      <ProjectsAngleContainer>
+        <AngleRight></AngleRight>
+        <AngleLeft></AngleLeft>
+      </ProjectsAngleContainer>
     </ProjectsSectionContainer>
   );
 }
