@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutContainer, AboutLeftContainer, AboutRightContainer, AboutLanguages, AboutTools, IconTitle, AboutSkillContainer, AboutSkill, LeftTop, LeftBottom, AboutEducationContainer, IconHTML, IconCSS, IconJS, IconPY, IconSQL, IconREA, IconRED, IconNO, IconGIT, IconFIG, IconPOST, IconTREL, IconVS } from "./AboutElements";
+import { AboutContainer, AboutLeftContainer, AboutRightContainer, AboutRightContainerTop, AboutRightContainerBottom, LeftTop, LeftBottom, AboutEducationContainer, AboutTopicContainer, IconBE, IconFE, IconRE, IconAC } from "./AboutElements";
 import Robert from "../../images/me.jpg";
 
 function About() {
@@ -25,68 +25,39 @@ function About() {
         </LeftBottom>
       </AboutLeftContainer>
       <AboutRightContainer>
-        <AboutLanguages>          
-          <h1>Languages and Frameworks</h1>
-          <AboutSkillContainer>
-            <AboutSkill>
-              <IconHTML />
-              <IconTitle>HTML</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconCSS />
-              <IconTitle>CSS</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconJS />
-              <IconTitle>JavaScript</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconPY />
-              <IconTitle>Python</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconSQL />
-              <IconTitle>SQLite</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconREA />
-              <IconTitle>React.js</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconRED />
-              <IconTitle>Redux.js</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconNO />
-              <IconTitle>Node.js</IconTitle>
-            </AboutSkill>
-          </AboutSkillContainer>
-        </AboutLanguages>
-        <AboutTools>
-          <h1>Tools</h1>
-          <AboutSkillContainer>
-            <AboutSkill>
-              <IconGIT />
-              <IconTitle>GitHub</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconFIG />
-              <IconTitle>Figma</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconPOST />
-              <IconTitle>Postman</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconTREL />
-              <IconTitle>Trello</IconTitle>
-            </AboutSkill>
-            <AboutSkill>
-              <IconVS />
-              <IconTitle>VS Code</IconTitle>
-            </AboutSkill>
-          </AboutSkillContainer>
-        </AboutTools>
+        <AboutRightContainerTop>
+          <AboutTopicContainer>
+            <IconFE />
+            <h1>Front End Development</h1>
+            <p>
+              Expertise using HTML, CSS, JavaScript, and Git version control to create beautiful websites.
+            </p>
+          </AboutTopicContainer>
+          <AboutTopicContainer>
+            <IconBE />
+            <h1>Back End Development</h1>
+            <p>
+              Experience building RESTful databases using Knex, Express, and SQLite3 libraries to allow full access to data with CRUD operations. Able to create authorization for users with JWT or by using AWS or Firebase.
+            </p>
+          </AboutTopicContainer>
+        </AboutRightContainerTop>
+        <div></div>
+        <AboutRightContainerBottom>
+          <AboutTopicContainer>
+            <IconRE />
+            <h1>Responsive Design</h1>
+            <p>
+              Using responsive units, media queries, and development tools I create responsive applications that look great on any screen.
+            </p>
+          </AboutTopicContainer>
+          <AboutTopicContainer>
+            <IconAC />
+            <h1>Accessability</h1>
+            <p>
+              Using semantic HTML practices, responsive font sizes, alt tags on images, and by keeping in mind color blindness I do my best to make my applications accessable to everyone.
+            </p>
+          </AboutTopicContainer>
+          </AboutRightContainerBottom>
       </AboutRightContainer>
     </AboutContainer>
   );

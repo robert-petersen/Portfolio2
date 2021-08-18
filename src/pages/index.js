@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import Sidebar from "../components/Sidebar";
 import Landing from "../components/Landing";
 import About from "../components/About";
+import Skills from "../components/Skills";
 // import Projects from "../components/Projects";
 // import Contact from "../components/Contact";
 // import Footer from "../components/Footer";
@@ -20,6 +21,7 @@ function Home() {
       <NavBar isOpen={isOpen} toggle={toggle} />
       <Landing />
       <About />
+      <Skills />
       {/* 
       <Projects />
       <Contact />

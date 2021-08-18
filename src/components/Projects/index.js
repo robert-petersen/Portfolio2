@@ -1,9 +1,11 @@
+import React from "react";
+import { ProjectsContainer } from "./ProjectsElements";
+
 function Projects() {
   return (
-    <div className="Projects">
+    <ProjectsContainer>
       
-
-    </div>
+    </ProjectsContainer>
   );
 }
 
