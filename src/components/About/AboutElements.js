@@ -1,17 +1,8 @@
 import styled from "styled-components";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
-import { FaPython } from "react-icons/fa";
-import { DiSqllite } from "react-icons/di";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaFigma } from "react-icons/fa";
-import { SiPostman } from "react-icons/si";
-import { FaTrello } from "react-icons/fa";
-import { SiVisualstudiocode } from "react-icons/si";
+import {FaDatabase} from "react-icons/fa";
+import {CgWebsite} from "react-icons/cg";
+import {FaBalanceScaleRight} from "react-icons/fa";
+import {FaEye} from "react-icons/fa";
 
 export const AboutContainer = styled.div`
   width: 100%;
@@ -120,131 +111,80 @@ export const AboutRightContainer = styled.div`
   color: #262626;
 
   @media screen and (max-width: 1300px) {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 20vh;
+  }
+`
+
+export const AboutRightContainerTop = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 2vh;
+
+  @media screen and (max-width: 1300px) {
     width: 80%;
   }
 `
 
-export const AboutLanguages = styled.div`
+export const AboutRightContainerBottom = styled.div`
   width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-
-  h1 {
-    width: 100%;
-    font-size: 1.6rem;
-    margin-bottom: 3vh;
-    padding-bottom: 2vh;
-    border-bottom: 2px solid dodgerblue;
-    padding-left: 1vw;
-  }
-`
-
-export const AboutTools = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 10vh;
-
-  h1 {
-    width: 100%;
-    font-size: 1.6rem;
-    margin-bottom: 3vh;
-    padding-bottom: 2vh;
-    border-bottom: 2px solid dodgerblue;
-    padding-left: 1vw;
-  }
 
   @media screen and (max-width: 1300px) {
-    margin-bottom: 10vh;
+    width: 80%;
   }
 `
 
-export const AboutSkillContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-
-`
-
-export const AboutSkill = styled.div`
+export const AboutTopicContainer = styled.div`
+  width: calc(50% - 3vh);
+  height: 250px;
+  /* background-color: #dcdcdc; */
+  background-color: #404040;
+  box-shadow: 2px 2px 2px lightslategray;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin: 30px;
-`
-export const IconTitle = styled.h2`
-  font-size: 1.2rem;
-  padding-top: 1vh;
-  color: #404040;
+
+  h1 {
+    width: 70%;
+    text-align: center;
+    margin-top: 2vh;
+    padding-bottom: 1vh;
+    border-bottom: 2vh;
+    border-bottom: 1px solid dodgerblue;
+    color: white;
+  }
+
+  p {
+    margin-top: 1vh;
+    line-height: 1.3;
+    /* color: #404040; */
+    /* color: #c3c3c3; */
+    color: whitesmoke;
+
+  }
 `
 
-export const IconHTML = styled(FaHtml5)`
-  font-size: 4.5rem;
+export const IconFE = styled(CgWebsite)`
+  font-size: 3rem;
   color: dodgerblue;
 `
-
-export const IconCSS = styled(FaCss3Alt)`
-  font-size: 4.5rem;
+export const IconBE = styled(FaDatabase)`
+  font-size: 3rem;
   color: dodgerblue;
 `
-
-export const IconJS = styled(SiJavascript)`
-  font-size: 4.5rem;
+export const IconRE = styled(FaBalanceScaleRight)`
+  font-size: 3rem;
   color: dodgerblue;
 `
-
-export const IconPY = styled(FaPython)`
-  font-size: 4.5rem;
-  color: dodgerblue;
-`
-
-export const IconSQL = styled(DiSqllite)`
-  font-size: 4.5rem;
-  color: dodgerblue;
-`
-
-export const IconREA = styled(FaReact)`
-  font-size: 4.5rem;
-  color: dodgerblue;
-`
-
-export const IconRED = styled(SiRedux)`
-  font-size: 4.5rem;
-  color: dodgerblue;
-`
-
-export const IconNO = styled(FaNodeJs)`
-  font-size: 4.5rem;
-  color: dodgerblue;
-`
-
-export const IconGIT = styled(FaGithubSquare)`
-  font-size: 4.5rem;
-  color: dodgerblue;
-`
-
-export const IconFIG = styled(FaFigma)`
-  font-size: 4.5rem;
-  color: dodgerblue;
-`
-
-export const IconPOST = styled(SiPostman)`
-  font-size: 4.5rem;
-  color: dodgerblue;
-`
-
-export const IconTREL = styled(FaTrello)`
-  font-size: 4.5rem;
-  color: dodgerblue;
-`
-
-export const IconVS = styled(SiVisualstudiocode)`
-  font-size: 4.5rem;
+export const IconAC = styled(FaEye)`
+  font-size: 3rem;
   color: dodgerblue;
 `
