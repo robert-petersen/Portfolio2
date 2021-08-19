@@ -46,6 +46,31 @@ export const SkillsTypeContainer = styled.div`
     padding-bottom: 2vh;
     border-bottom: 2px solid dodgerblue;
     padding-left: 1vw;
+
+    @media screen and (max-width: 710px) {
+      font-size: 1.8rem;
+      width: 80%;
+    }
+    @media screen and (max-width: 480px) {
+      font-size: 1.4rem;
+      width: 90%;
+    }
+  }
+
+  .icon {
+    @media screen and (max-width: 710px) {
+        font-size: 3rem;
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 710px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 480px) {
+    width: 90%;
   }
 `
 
