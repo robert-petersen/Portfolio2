@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { SidebarContainer, SidebarLinksContainer, SidebarLink } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -14,6 +14,15 @@ const Sidebar = ({ isOpen, toggle }) => {
           exact="true"
           offset={-60}
         >About</SidebarLink>
+        <SidebarLink 
+          to="skills" 
+          onClick={toggle} 
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-60}
+        >Skills</SidebarLink>
         <SidebarLink 
           to="projects" 
           onClick={toggle} 
@@ -37,4 +46,4 @@ const Sidebar = ({ isOpen, toggle }) => {
   )
 }
 
-export default Sidebar
+export default Sidebar;

@@ -22,6 +22,7 @@ export const ProjectsHeading = styled.h1`
   padding-left: 1vw;
 
   @media screen and (max-width: 450px) {
+    width: 80%;
     font-size: 1.8rem;
   }
 `

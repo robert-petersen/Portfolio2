@@ -99,6 +99,10 @@ export const LeftBottom = styled.div`
     padding-bottom: 2vh;
     border-bottom: 2px solid dodgerblue;
     padding-left: 1vw;
+
+    @media screen and (max-width: 800px) {
+    text-align: center;
+    }
   }
 
   p {
@@ -194,6 +198,11 @@ export const AboutTopicContainer = styled.div`
     width: 70%;
     height: 40vh;
     margin-bottom: 5vh;
+  }
+
+  @media screen and (max-width: 450px) {
+    width: 90%;
+    height: 50vh;
   }
 `
 
