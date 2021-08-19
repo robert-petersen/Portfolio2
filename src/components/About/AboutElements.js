@@ -142,7 +142,7 @@ export const AboutRightContainerBottom = styled.div`
 
 export const AboutTopicContainer = styled.div`
   width: calc(50% - 3vh);
-  height: 250px;
+  height: 30vh;
   background-color: #404040;
   box-shadow: 2px 2px 2px lightslategray;
   padding: 20px;

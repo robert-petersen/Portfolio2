@@ -48,6 +48,10 @@ export const ProjectContainer = styled.div`
     border-bottom: 3px solid dodgerblue;
     box-shadow: 2px 2px 2px lightslategray;
   }
+
+  @media screen and (max-width: 1300px) {
+    width: calc((100% - 6%)/2);
+  }
 `
 
 export const ProjectTopContainer = styled.div`
