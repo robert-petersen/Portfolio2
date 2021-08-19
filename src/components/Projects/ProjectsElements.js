@@ -20,6 +20,10 @@ export const ProjectsHeading = styled.h1`
   margin-bottom: 10vh;
   margin-top: 15vh;
   padding-left: 1vw;
+
+  @media screen and (max-width: 450px) {
+    font-size: 1.8rem;
+  }
 `
 
 export const ProjectsContainer = styled.div`
@@ -29,6 +33,10 @@ export const ProjectsContainer = styled.div`
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 10vh;
+
+  @media screen and (max-width: 350px) {
+    width: 95%;
+  }
 `
 
 export const ProjectContainer = styled.div`
@@ -49,8 +57,21 @@ export const ProjectContainer = styled.div`
     box-shadow: 2px 2px 2px lightslategray;
   }
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1350px) {
     width: calc((100% - 6%)/2);
+  }
+
+  @media screen and (max-width: 900px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 650px) {
+    width: 100%;
+    padding: 4%;
+  }
+
+  @media screen and (max-width: 350px) {
+    padding: 10%;
   }
 `
 
@@ -72,12 +93,20 @@ export const ProjectTitle = styled.h2`
   padding-bottom: 1vh;
   border-bottom: 1px solid dodgerblue;
   margin-bottom: 2vh;
+
+  @media screen and (max-width: 450px) {
+    font-size: 1.4rem;
+  }
 `
 
 export const ProjectDescription = styled.p`
   font-size: 1.2rem;
   color: lightgray;
   line-height: 1.4;
+
+  @media screen and (max-width: 450px) {
+    font-size: 1rem;
+  }
 `
 
 export const ProjectLinks = styled.div`
