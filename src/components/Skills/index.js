@@ -41,7 +41,7 @@ const Skills = () => {
           </Skill>
           <Skill>
             <IconSC />
-            <IconTitle>Styled Components</IconTitle>
+            <IconTitle>Styled</IconTitle>
           </Skill>
           <Skill>
             <IconKN />

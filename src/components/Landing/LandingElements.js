@@ -48,6 +48,8 @@ export const LandingTextH1 = styled.h1`
   text-align: center;
   text-shadow: 3px 3px 2px lightslategray;
 
+
+
   @media screen and (max-width: 768px) {
     font-size: 3rem;
     text-shadow: 2px 2px 2px lightslategray;

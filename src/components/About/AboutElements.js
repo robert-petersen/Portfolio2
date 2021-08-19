@@ -12,7 +12,7 @@ export const AboutContainer = styled.section`
   justify-content: space-evenly;
   align-items: center;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     flex-direction: column;
     justify-content: center;
   }
@@ -26,7 +26,7 @@ export const AboutLeftContainer = styled.div`
   align-items: flex-start;
   color: #262626;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     width: 80%;
   }
 `
@@ -43,8 +43,12 @@ export const LeftTop = styled.div`
     box-shadow: 2px 2px 2px lightslategray;
   }
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     margin-top: 10vh;
+  }
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
   }
 `
 
@@ -78,6 +82,13 @@ export const AboutEducationContainer = styled.div`
     padding-left: calc(30px + 1vw);
     color:  #404040;
   }
+
+  @media screen and (max-width: 800px) {
+    margin-top: 5vh;
+    h2 {
+      text-align: center;
+    }
+  }
 `
 
 export const LeftBottom = styled.div`
@@ -97,7 +108,7 @@ export const LeftBottom = styled.div`
     color:  #404040;
   }
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     margin-bottom: 10vh;
   }
 `
@@ -110,7 +121,7 @@ export const AboutRightContainer = styled.div`
   align-items: center;
   color: #262626;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     width: 100%;
     flex-direction: column;
     margin-bottom: 20vh;
@@ -124,8 +135,14 @@ export const AboutRightContainerTop = styled.div`
   align-items: center;
   padding-bottom: 2vh;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     width: 80%;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 0;
   }
 `
 
@@ -135,8 +152,14 @@ export const AboutRightContainerBottom = styled.div`
   justify-content: space-evenly;
   align-items: center;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     width: 80%;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 0;
   }
 `
 
@@ -165,6 +188,12 @@ export const AboutTopicContainer = styled.div`
     margin-top: 1vh;
     line-height: 1.3;
     color: lightgray;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 70%;
+    height: 40vh;
+    margin-bottom: 5vh;
   }
 `
 
