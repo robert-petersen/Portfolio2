@@ -8,47 +8,47 @@ const Skills = () => {
         <h1>Languages, Frameworks, and Libraries</h1>
         <SkillContainer>
           <Skill>
-            <IconHTML />
+            <IconHTML className="icon"/>
             <IconTitle>HTML</IconTitle>
           </Skill>
           <Skill>
-            <IconCSS />
+            <IconCSS className="icon"/>
             <IconTitle>CSS</IconTitle>
           </Skill>
           <Skill>
-            <IconJS />
+            <IconJS className="icon"/>
             <IconTitle>JavaScript</IconTitle>
           </Skill>
           <Skill>
-            <IconPY />
+            <IconPY className="icon"/>
             <IconTitle>Python</IconTitle>
           </Skill>
           <Skill>
-            <IconSQL />
+            <IconSQL className="icon"/>
             <IconTitle>SQLite</IconTitle>
           </Skill>
           <Skill>
-            <IconREA />
+            <IconREA className="icon"/>
             <IconTitle>React.js</IconTitle>
           </Skill>
           <Skill>
-            <IconRED />
+            <IconRED className="icon"/>
             <IconTitle>Redux.js</IconTitle>
           </Skill>
           <Skill>
-            <IconNO />
+            <IconNO className="icon"/>
             <IconTitle>Node.js</IconTitle>
           </Skill>
           <Skill>
-            <IconSC />
-            <IconTitle>Styled Components</IconTitle>
+            <IconSC className="icon"/>
+            <IconTitle>Styled</IconTitle>
           </Skill>
           <Skill>
-            <IconKN />
+            <IconKN className="icon"/>
             <IconTitle>Knex.js</IconTitle>
           </Skill>
           <Skill>
-            <IconJWT />
+            <IconJWT className="icon"/>
             <IconTitle>JWT</IconTitle>
           </Skill>
         </SkillContainer>
@@ -57,31 +57,31 @@ const Skills = () => {
         <h1>Tools</h1>
         <SkillContainer>
           <Skill>
-            <IconGIT />
+            <IconGIT className="icon"/>
             <IconTitle>GitHub</IconTitle>
           </Skill>
           <Skill>
-            <IconFIG />
+            <IconFIG className="icon"/>
             <IconTitle>Figma</IconTitle>
           </Skill>
           <Skill>
-            <IconPOST />
+            <IconPOST className="icon"/>
             <IconTitle>Postman</IconTitle>
           </Skill>
           <Skill>
-            <IconTREL />
+            <IconTREL className="icon"/>
             <IconTitle>Trello</IconTitle>
           </Skill>
           <Skill>
-            <IconVS />
+            <IconVS className="icon"/>
             <IconTitle>VS Code</IconTitle>
           </Skill>
           <Skill>
-            <IconAWS />
+            <IconAWS className="icon"/>
             <IconTitle>AWS</IconTitle>
           </Skill>
           <Skill>
-            <IconFIRE />
+            <IconFIRE className="icon"/>
             <IconTitle>Firebase</IconTitle>
           </Skill>
         </SkillContainer>

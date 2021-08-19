@@ -19,6 +19,12 @@ export const ContactSectionsContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const ContactLeft = styled.div`
@@ -27,6 +33,11 @@ export const ContactLeft = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+
+  @media screen and (max-width: 900px) {
+    margin-top: 10vh;
+    width: 80%;
+  }
 `
 
 export const ContactRight = styled.div`
@@ -35,6 +46,11 @@ export const ContactRight = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+
+  @media screen and (max-width: 900px) {
+    margin-bottom: 10vh;
+    width: 80%;
+  }
 `
 
 export const ContactTitle = styled.h1`
@@ -46,6 +62,15 @@ export const ContactTitle = styled.h1`
   margin-bottom: 5vh;
   padding-left: 1vw;
   color: white;
+
+  @media screen and (max-width: 900px) {
+    margin-top: 10vh;
+    font-size: 1.8rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 1.6rem;
+  }
 `
 
 export const ContactParagraph = styled.p`
@@ -67,6 +92,14 @@ export const ContactParagraph = styled.p`
     &:hover {
       color: dodgerblue;
     }
+  }
+
+  @media screen and (max-width: 900px) {
+    font-size: 1.2rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 1rem;
   }
 `
 
