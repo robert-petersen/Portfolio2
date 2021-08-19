@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Link as LinkR} from "react-router-dom";
 import {Link as LinkS} from "react-scroll";
 
-export const NavContainer = styled.div`
+export const NavContainer = styled.nav`
   width: 100%;
   height: 60px;
   background-color: #262626;

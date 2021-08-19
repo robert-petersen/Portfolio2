@@ -18,7 +18,7 @@ import { SiAmazonaws } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { SiJsonwebtokens } from "react-icons/si";
 
-export const SkillsContainer = styled.div`
+export const SkillsContainer = styled.section`
   background-color: whitesmoke;
   min-height: calc( 100vh - 60px );
   width: 100%;

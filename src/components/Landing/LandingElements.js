@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Link as LinkS} from "react-scroll";
 import {MdArrowDownward, MdArrowForward} from "react-icons/md";
 
-export const LandingContainer = styled.div`
+export const LandingContainer = styled.section`
   height: 100vh;
   width: 100%;
   background-color: grey;
