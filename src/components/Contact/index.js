@@ -8,7 +8,7 @@ function Contact() {
         <ContactLeft>
           <ContactTitle>Contact Me</ContactTitle>
           <ContactParagraph>
-            If you would like to get in touch with me about job opportunities or to work on a project togeather, feel free to do so by messaging me on <a href="https://www.linkedin.com/in/robert-petersen808/" target="_blank" rel="noreferrer">LinkedIn</a> or by sending an email to my business email: <span>robert.petersen808@gmail.com</span>.
+            If you would like to get in touch with me about job opportunities or to work on a project together, feel free to do so by messaging me on <a href="https://www.linkedin.com/in/robert-petersen808/" target="_blank" rel="noreferrer">LinkedIn</a> or by sending an email to my business email: <span>robert.petersen808@gmail.com</span>.
           </ContactParagraph>
         </ContactLeft>
         <ContactRight>
