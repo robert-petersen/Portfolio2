@@ -25,14 +25,14 @@ function Contact() {
               <IconLinkedIn />
             </SocialLink>
             <SocialLink 
-              href="https://www.linkedin.com/in/robert-petersen808/" 
+              href="https://github.com/robert-petersen" 
               target="_blank" 
               rel="noreferrer"
             >
               <IconGitHub />
             </SocialLink>
             <SocialLink 
-              href="https://www.linkedin.com/in/robert-petersen808/" 
+              href="https://robert-petersen.medium.com/" 
               target="_blank" 
               rel="noreferrer"
             >
