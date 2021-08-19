@@ -4,7 +4,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { RiMediumFill } from "react-icons/ri";
 import { BiCopyright } from "react-icons/bi";
 
-export const ContactContainer = styled.div`
+export const ContactContainer = styled.section`
   width: 100%;
   min-height: calc( 100vh - 60px );
   background-color: #404040;

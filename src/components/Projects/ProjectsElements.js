@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProjectsSectionContainer = styled.div`
+export const ProjectsSectionContainer = styled.section`
   min-height: calc( 100vh - 60px );
   width: 100%;
   max-width: 100vw;

@@ -4,7 +4,7 @@ import {CgWebsite} from "react-icons/cg";
 import {FaBalanceScaleRight} from "react-icons/fa";
 import {FaEye} from "react-icons/fa";
 
-export const AboutContainer = styled.div`
+export const AboutContainer = styled.section`
   width: 100%;
   min-height: calc( 100vh - 60px );
   background-color: #e8e8e8;
