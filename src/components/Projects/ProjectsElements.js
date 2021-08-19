@@ -19,6 +19,7 @@ export const ProjectsHeading = styled.h1`
   border-bottom: 2px solid dodgerblue;
   margin-bottom: 10vh;
   margin-top: 15vh;
+  padding-left: 1vw;
 `
 
 export const ProjectsContainer = styled.div`
