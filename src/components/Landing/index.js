@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Video from "../../videos/pexels-crazy-motions-8733062.mp4";
-// import Video from "../../videos/lake.mp4";
-import { LandingContainer, LandingVideoContainer, LandingVideo, LandingTextContainer, LandingTextH1, LandingTextH2, Button, ArrowForward, ArrowDownward } from "./LandingElements";
+import { LandingContainer, LandingVideoContainer, LandingVideo, LandingTextContainer, LandingTextH1, LandingTextH2, Button, ArrowForward, ArrowDownward, LandingFadeOut } from "./LandingElements";
 
 const Landing = () => {
   const [hover, setHover] = useState(false);
@@ -29,6 +28,7 @@ const Landing = () => {
           offset={-60}
         >Continue {hover ? <ArrowDownward /> : <ArrowForward />} </Button>
       </LandingTextContainer>
+      <LandingFadeOut></LandingFadeOut>
     </LandingContainer>
   )
 }

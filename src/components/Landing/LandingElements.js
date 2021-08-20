@@ -3,7 +3,7 @@ import {Link as LinkS} from "react-scroll";
 import {MdArrowDownward, MdArrowForward} from "react-icons/md";
 
 export const LandingContainer = styled.section`
-  height: 100vh;
+  height: calc(100vh + 20vh);
   width: 100%;
   background-color: grey;
   position: relative;
@@ -31,7 +31,7 @@ export const LandingVideo = styled.video`
 export const LandingTextContainer = styled.div`
   position: absolute;
   z-index: 2;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   max-width: 100%;
   display: flex;
@@ -107,4 +107,14 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowDownward = styled(MdArrowDownward)`
   margin-left: 8px;
   font-size: 1rem;
+`
+
+export const LandingFadeOut = styled.div`
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  height: 20vh;
+  width: 100%;
+  max-width: 100%;
+  background: linear-gradient(180deg, rgba(232, 232, 232, 0), rgba(232, 232, 232, 1));
 `
