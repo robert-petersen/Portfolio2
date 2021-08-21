@@ -3,6 +3,7 @@ import { ProjectsSectionContainer, ProjectsHeading, ProjectsContainer, ProjectCo
 import LinkedInClone from "../../images/LinkedInClone.png";
 import Banking from "../../images/Banking.png";
 import Pizza from "../../images/pizza.png";
+import RockPaper from "../../images/RockPaperScissors.png";
 
 function Projects() {
   return (
@@ -78,20 +79,20 @@ function Projects() {
 
         <ProjectContainer>
           <ProjectTopContainer>
-            <ProjectImg src={LinkedInClone} alt="project image" />
-            <ProjectTitle>LinkedIn Clone</ProjectTitle>
+            <ProjectImg src={RockPaper} alt="project image" />
+            <ProjectTitle>Rock Paper Scissors</ProjectTitle>
             <ProjectDescription>
-              Created a clone of the popular networking website. Built by using the React framework and Redux for state management. Authentication and deployment of the application was set up using Firebase.
+              An application to play rock paper scissors. Created using React, Styled Components, and React Icons.
             </ProjectDescription>
           </ProjectTopContainer>
           <ProjectLinks>
             <ProjectLink 
-              href="https://linkedin-clone-5c1ec.web.app/" 
+              href="https://rock-paper-scissors-wine.vercel.app/" 
               target="_blank" 
               rel="norefferer"
             >Deployed Site</ProjectLink>
             <ProjectLink 
-              href="https://github.com/robert-petersen/linkedin-clone" 
+              href="https://github.com/robert-petersen/rock-paper-scissors" 
               target="_blank" 
               rel="norefferer"
             >GitHub Repo</ProjectLink>
