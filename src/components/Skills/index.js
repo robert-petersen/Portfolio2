@@ -1,5 +1,5 @@
 import React from 'react';
-import { SkillsContainer, SkillsTypeContainer, SkillContainer, Skill, IconTitle, IconHTML, IconCSS, IconJS, IconPY, IconSQL, IconREA, IconRED, IconNO, IconGIT, IconFIG, IconPOST, IconTREL, IconVS, IconSC, IconKN, IconAWS, IconFIRE, IconJWT } from "./SkillsElements";
+import { SkillsContainer, SkillsTypeContainer, SkillContainer, Skill, IconTitle, IconHTML, IconCSS, IconJS, IconPY, IconSQL, IconREA, IconRED, IconNO, IconGIT, IconFIG, IconPOST, IconTREL, IconVS, IconSC, IconKN, IconAWS, IconFIRE, IconJWT, IconSASS } from "./SkillsElements";
 
 const Skills = () => {
   return (
@@ -50,6 +50,10 @@ const Skills = () => {
           <Skill>
             <IconJWT className="icon"/>
             <IconTitle>JWT</IconTitle>
+          </Skill>
+          <Skill>
+            <IconSASS className="icon"/>
+            <IconTitle>SASS</IconTitle>
           </Skill>
         </SkillContainer>
       </SkillsTypeContainer>
