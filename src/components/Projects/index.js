@@ -4,12 +4,35 @@ import LinkedInClone from "../../images/LinkedInClone.png";
 import Banking from "../../images/Banking.png";
 import Pizza from "../../images/pizza.png";
 import RockPaper from "../../images/RockPaperScissors.png";
+import Calculator from "../../images/Calculator.png";
 
 function Projects() {
   return (
     <ProjectsSectionContainer id="projects">
       <ProjectsHeading>What I've Created</ProjectsHeading>
       <ProjectsContainer>
+
+        <ProjectContainer>
+          <ProjectTopContainer>
+            <ProjectImg src={Calculator} alt="project image" />
+            <ProjectTitle>Calculator App</ProjectTitle>
+            <ProjectDescription>
+            This is my solution to the Calculator app challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. Created using React, Redux, SASS, and CSS Grids.
+            </ProjectDescription>
+          </ProjectTopContainer>
+          <ProjectLinks>
+            <ProjectLink 
+              href="https://roberts-calculator-app.vercel.app/" 
+              target="_blank" 
+              rel="norefferer"
+            >Deployed Site</ProjectLink>
+            <ProjectLink 
+              href="https://github.com/robert-petersen/calculator-app" 
+              target="_blank" 
+              rel="norefferer"
+            >GitHub Repo</ProjectLink>
+          </ProjectLinks>
+        </ProjectContainer>
 
         <ProjectContainer>
           <ProjectTopContainer>
