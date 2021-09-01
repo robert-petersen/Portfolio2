@@ -1,5 +1,5 @@
 import React from 'react';
-import { SkillsContainer, SkillsTypeContainer, SkillContainer, Skill, IconTitle, IconHTML, IconCSS, IconJS, IconPY, IconSQL, IconREA, IconRED, IconNO, IconGIT, IconFIG, IconPOST, IconTREL, IconVS, IconSC, IconKN, IconAWS, IconFIRE, IconJWT, IconSASS } from "./SkillsElements";
+import { SkillsContainer, SkillsTypeContainer, SkillContainer, Skill, IconTitle, IconHTML, IconCSS, IconJS, IconPY, IconSQL, IconREA, IconRED, IconNO, IconGIT, IconFIG, IconPOST, IconTREL, IconVS, IconSC, IconKN, IconAWS, IconFIRE, IconJWT, IconSASS, IconMongo } from "./SkillsElements";
 
 const Skills = () => {
   return (
@@ -45,7 +45,7 @@ const Skills = () => {
           </Skill>
           <Skill>
             <IconKN className="icon"/>
-            <IconTitle>Knex.js</IconTitle>
+            <IconTitle>Knex</IconTitle>
           </Skill>
           <Skill>
             <IconJWT className="icon"/>
@@ -54,6 +54,14 @@ const Skills = () => {
           <Skill>
             <IconSASS className="icon"/>
             <IconTitle>SASS</IconTitle>
+          </Skill>
+          <Skill>
+            <IconMongo className="icon"/>
+            <IconTitle>MongoDB</IconTitle>
+          </Skill>
+          <Skill>
+            <IconMongo className="icon"/>
+            <IconTitle>Mongoose</IconTitle>
           </Skill>
         </SkillContainer>
       </SkillsTypeContainer>

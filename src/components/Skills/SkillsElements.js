@@ -18,6 +18,7 @@ import { SiAmazonaws } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { SiJsonwebtokens } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
 
 export const SkillsContainer = styled.section`
   background-color: whitesmoke;
@@ -187,6 +188,11 @@ export const IconJWT = styled(SiJsonwebtokens)`
 `
 
 export const IconSASS = styled(FaSass)`
+  font-size: 4.5rem;
+  color: dodgerblue;
+`
+
+export const IconMongo = styled(DiMongodb)`
   font-size: 4.5rem;
   color: dodgerblue;
 `
