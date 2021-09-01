@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactContainer, ContactSectionsContainer, ContactLeft, ContactRight, ContactTitle, ContactParagraph, SocialMediaContainer, ContactCopyright, CopyrightText, SocialLink, IconLinkedIn, IconGitHub, IconMedium, CopyRight } from "./ContactElements";
+import { ContactContainer, ContactSectionsContainer, ContactLeft, ContactRight, ContactTitle, ContactParagraph, SocialMediaContainer, ContactCopyright, CopyrightText, SocialLink, IconLinkedIn, IconGitHub, IconMedium, CopyRight, IconResume } from "./ContactElements";
 
 function Contact() {
   return (
@@ -37,6 +37,13 @@ function Contact() {
               rel="noreferrer"
             >
               <IconMedium />
+            </SocialLink>
+            <SocialLink 
+              href="https://resume.io/r/FFjx1r7fT" 
+              target="_blank" 
+              rel="noreferrer"
+            >
+              <IconResume />
             </SocialLink>
           </SocialMediaContainer>
         </ContactRight>
