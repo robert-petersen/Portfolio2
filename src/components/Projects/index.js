@@ -5,12 +5,30 @@ import Banking from "../../images/Banking.png";
 import Pizza from "../../images/pizza.png";
 import RockPaper from "../../images/RockPaperScissors.png";
 import Calculator from "../../images/Calculator.png";
+import BlueW from "../../images/BlueW.png";
 
 function Projects() {
   return (
     <ProjectsSectionContainer id="projects">
       <ProjectsHeading>What I've Created</ProjectsHeading>
       <ProjectsContainer>
+
+        <ProjectContainer>
+          <ProjectTopContainer>
+            <ProjectImg src={BlueW} alt="project image" />
+            <ProjectTitle>Human Rights First: Blue Witness</ProjectTitle>
+            <ProjectDescription>
+            Worked on an legacy project built by past developers and reported to a stakeholder with ideas and designs. Worked with a team of 7 web developers, including a lead designer, and 3 data scientists.
+            </ProjectDescription>
+          </ProjectTopContainer>
+          <ProjectLinks>
+            <ProjectLink 
+              href="https://robert-petersen.medium.com/my-first-experience-with-a-legacy-project-496c6146810" 
+              target="_blank" 
+              rel="norefferer"
+            >View Project Blog</ProjectLink>
+          </ProjectLinks>
+        </ProjectContainer>
 
         <ProjectContainer>
           <ProjectTopContainer>
@@ -144,7 +162,7 @@ function Projects() {
             <ProjectImg src="https://page-builder.ted.com/system/baubles/files/000/005/178/original/schoolcloud.png" alt="project image" />
             <ProjectTitle>School in the Cloud Backend</ProjectTitle>
             <ProjectDescription>
-              Created a database for a school task management application using Node.js, Express, Knex, SQLite3, bcryptjs, JWT, and deployment on Heroku.
+              Created a database for a school task management application using Node.js, Express, Knex, SQLite3, bcryptjs, JWT, and deployment on Heroku. Lead a team of 5 developers for this project.
             </ProjectDescription>
           </ProjectTopContainer>
           <ProjectLinks>

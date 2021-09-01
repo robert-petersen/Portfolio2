@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { RiMediumFill } from "react-icons/ri";
 import { BiCopyright } from "react-icons/bi";
+import { ImProfile } from "react-icons/im";
 
 export const ContactContainer = styled.section`
   width: 100%;
@@ -153,6 +154,15 @@ export const IconGitHub = styled(FaGithubSquare)`
 
 export const IconMedium = styled(RiMediumFill)`
   font-size: 3.5rem;
+  color: dodgerblue;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    color: white;
+  }
+`
+
+export const IconResume = styled(ImProfile)`
+  font-size: 3rem;
   color: dodgerblue;
   transition: 0.3s ease-in-out;
   &:hover {

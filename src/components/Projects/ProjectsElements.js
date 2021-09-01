@@ -88,9 +88,10 @@ export const ProjectImg = styled.img`
 `
 
 export const ProjectTitle = styled.h2`
-  width: 75%;
+  width: 90%;
   color: white;
   font-size: 1.8rem;
+  line-height: 1.2;
   padding-bottom: 1vh;
   border-bottom: 1px solid dodgerblue;
   margin-bottom: 2vh;
