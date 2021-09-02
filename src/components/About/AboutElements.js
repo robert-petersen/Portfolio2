@@ -9,17 +9,19 @@ export const AboutContainer = styled.section`
   min-height: calc( 100vh - 60px );
   background-color: #e8e8e8;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding-top: 10%;
+  padding-bottom: 15%;
 
-  @media screen and (max-width: 1500px) {
-    flex-direction: column;
-    justify-content: center;
+  @media screen and (max-width: 800px) {
+    padding-bottom: 0;
   }
 `
 
 export const AboutLeftContainer = styled.div`
-  width: 42%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -27,7 +29,7 @@ export const AboutLeftContainer = styled.div`
   color: #262626;
 
   @media screen and (max-width: 1500px) {
-    width: 80%;
+    width: 60%;
   }
 `
 
@@ -118,7 +120,8 @@ export const LeftBottom = styled.div`
 `
 
 export const AboutRightContainer = styled.div`
-  width: 42%;
+  width: 50%;
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -126,7 +129,7 @@ export const AboutRightContainer = styled.div`
   color: #262626;
 
   @media screen and (max-width: 1500px) {
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     margin-bottom: 20vh;
   }
