@@ -112,6 +112,15 @@ export const LeftBottom = styled.div`
     line-height: 1.7;
     margin-bottom: 1vh;
     color:  #404040;
+
+    a {
+      text-decoration: none;
+      color: dodgerblue;
+
+      &:hover {
+        color: white;
+      }
+    }
   }
 
   @media screen and (max-width: 1500px) {
