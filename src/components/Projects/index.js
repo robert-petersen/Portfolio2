@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectsSectionContainer, ProjectsHeading, ProjectsContainer, ProjectContainer, ProjectImg, ProjectTitle, ProjectDescription, ProjectLinks, ProjectLink, ProjectTopContainer, ProjectsAngleContainer, AngleRight, AngleLeft } from "./ProjectsElements";
-import LinkedInClone from "../../images/LinkedInClone.png";
+import NASAPhotos from "../../images/NASAPhotos.png";
 import Banking from "../../images/Banking.png";
 import Pizza from "../../images/pizza.png";
 import RockPaper from "../../images/RockPaperScissors.png";
@@ -27,6 +27,28 @@ function Projects() {
               target="_blank" 
               rel="norefferer"
             >View Project Blog</ProjectLink>
+          </ProjectLinks>
+        </ProjectContainer>
+
+        <ProjectContainer>
+          <ProjectTopContainer>
+            <ProjectImg src={NASAPhotos} alt="project image" />
+            <ProjectTitle>NASA Photos</ProjectTitle>
+            <ProjectDescription>
+              Website that searches and displays photos from the NASA Astronomy Photo of the Day API. Built using React, SASS, React-scroll and React-icons.
+            </ProjectDescription>
+          </ProjectTopContainer>
+          <ProjectLinks>
+            <ProjectLink 
+              href="https://shopify-nasa-challenge-zeta.vercel.app/" 
+              target="_blank" 
+              rel="norefferer"
+            >Deployed Site</ProjectLink>
+            <ProjectLink 
+              href="https://github.com/robert-petersen/shopify-nasa-challenge" 
+              target="_blank" 
+              rel="norefferer"
+            >GitHub Repo</ProjectLink>
           </ProjectLinks>
         </ProjectContainer>
 
@@ -112,28 +134,6 @@ function Projects() {
             >Deployed Site</ProjectLink>
             <ProjectLink 
               href="https://github.com/robert-petersen/pizza-website" 
-              target="_blank" 
-              rel="norefferer"
-            >GitHub Repo</ProjectLink>
-          </ProjectLinks>
-        </ProjectContainer>
-
-        <ProjectContainer>
-          <ProjectTopContainer>
-            <ProjectImg src={LinkedInClone} alt="project image" />
-            <ProjectTitle>LinkedIn Clone</ProjectTitle>
-            <ProjectDescription>
-              Created a clone of the popular networking website. Built by using the React framework and Redux for state management. Authentication and deployment of the application was set up using Firebase.
-            </ProjectDescription>
-          </ProjectTopContainer>
-          <ProjectLinks>
-            <ProjectLink 
-              href="https://linkedin-clone-5c1ec.web.app/" 
-              target="_blank" 
-              rel="norefferer"
-            >Deployed Site</ProjectLink>
-            <ProjectLink 
-              href="https://github.com/robert-petersen/linkedin-clone" 
               target="_blank" 
               rel="norefferer"
             >GitHub Repo</ProjectLink>
