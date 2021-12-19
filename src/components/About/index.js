@@ -69,9 +69,9 @@ function About() {
           </AboutTopicContainer>
           <AboutTopicContainer>
             <IconAC />
-            <h1>Accessability</h1>
+            <h1>Accessibility</h1>
             <p>
-              Using semantic HTML practices, responsive font sizes, alt tags on images, and by keeping in mind color blindness I do my best to make my applications accessable to everyone.
+              Using semantic HTML practices, responsive font sizes, alt tags on images, and by keeping in mind color blindness I do my best to make my applications accessible to everyone.
             </p>
           </AboutTopicContainer>
           </AboutRightContainerBottom>
